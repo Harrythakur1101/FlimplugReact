@@ -1,0 +1,54 @@
+{
+  "name": "filmplug",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@u-wave/react-vimeo": "^0.9.5",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-js-spatial-navigation": "0.0.5",
+    "react-jw-player": "^1.19.1",
+    "react-jw-player2": "^1.0.5",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.3.1",
+    "react-scripts": "4.0.3",
+    "react-vimeo": "^2.0.0",
+    "sweetalert2": "^11.4.9",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "."
+}

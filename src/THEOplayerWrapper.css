@@ -1,0 +1,64 @@
+.theo-primary-color,
+.vjs-selected {
+    color: #61dafb !important;
+}
+
+.theo-primary-background {
+    color: #000000 !important;
+    background-color: #61dafb !important;
+}
+
+.theo-secondary-color {
+    color: #ffffff !important;
+}
+
+.theo-secondary-background {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+.theo-tertiary-color {
+    color: #000000 !important;
+}
+
+.theo-tertiary-background {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+.theoplayer-skin video {
+    object-fit: contain; /* default */
+    /* object-fit: cover; // content outside of the container, hence some content might be missing from the container */
+    /* object-fit: fill; // all content inside of the container, but the content might be deformed to be fitted inside of it */
+  }
+
+/* .theoplayer-container{
+    width: 100vw;
+    height: 100vh;
+}
+.theoplayer-skin{
+    width: 100vw;
+    height: 100vh;
+}
+.THEOplayer{
+    width: 100vw;
+    height: 100vh;
+} */
+
+.theoplayer-container{
+    width:100vw !important ;
+    height:100vh !important;
+}
+.theoplayer-skin video {
+    object-fit: contain !important; /* default */
+    /* object-fit: cover; // content outside of the container, hence some content might be missing from the container */
+    /* object-fit: fill; // all content inside of the container, but the content might be deformed to be fitted inside of it */
+  }
+.App{
+    height: 100vh;
+    width: 100vw;
+    overflow:hidden;
+}
+.theoplayer-container:focus{
+    border: none;
+}
